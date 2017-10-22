@@ -1,0 +1,133 @@
+{% load staticfiles %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Présentation du JJB Jiu Jitsu Bresilien par le club de Jiu Jitsu de Belfort">
+    <meta name="author" content="">
+
+    <title>Schmitz Team Belfort - Jiu Jitsu Bresilien | BJJ </title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="{% static 'css/business-casual.css' %}" rel="stylesheet">
+
+    <!-- Fonts -->
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Josefin+Slab:100,300,400,600,700,100italic,300italic,400italic,600italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+
+</head>
+
+<body>
+	<div class="item active">
+        <img class="img-responsive img-full" src="{% static 'img/logo.jpg' %}" alt="">
+    </div>
+	<!--
+    <div class="brand">Business Casual</div>
+    <div class="address-bar">3481 Melrose Place | Beverly Hills, CA 90210 | 123.456.7890</div>
+    <div class="address-bar">3481 Melrose Place | Beverly Hills, CA 90210 | 123.456.7890</div>
+-->
+    <!-- Navigation -->
+    <nav class="navbar navbar-default" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <!-- navbar-brand is hidden on larger screens, but visible when the menu is collapsed -->
+                <a class="navbar-brand" href="index.html">Schmitz Team Belfort</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="index.html">Accueil</a>
+                    </li>
+                    <li>
+                        <a href="blog.html">News</a>
+                    </li>
+                    <li>
+                        <a href="about.html">Le Club</a>
+                    </li>
+                    <li>
+                        <a href="jjb.html">Le JJB</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <div class="container">
+
+        <div class="row">
+            <div class="box">
+                <div class="col-lg-12">
+                    <hr>
+                    <h2 class="intro-text text-center">Le
+                        Jiu Jitsu Brésilien
+                    </h2>
+                    <hr>
+                </div>
+                <div class="col-md-6">
+                  <img class="img-responsive img-border-left" src="{% static 'img/img2.jpg' %}" alt="">
+                </div>
+                <div class="col-md-6">
+                    <img class="img-responsive img-border-left" src="{% static 'img/img1.jpg' %}" alt="">
+                </div>
+
+                <div class="col-md-12">
+                   <p><br/><br/> Le jiu-jitsu brésilien (portugais : Jiu-jitsu brasileiro; japonais : ブラジルの柔術, Burajiru no jūjutsu), est un art martial, un sport de combat et un système de self-defense dérivé de techniques de Judo et de ju-jitsu importées du Japon au Brésil par Mitsuyo Maéda vers 1920, puis développé par la famille Gracie.
+</p>
+<p>
+Le jiu-jitsu brésilien promeut le concept qu'une personne peut se défendre face à un opposant plus lourd et fort en utilisant les techniques appropriées, plus particulièrement en amenant le combat au sol et en appliquant des techniques d'étranglement, de clé (nuque, épaule, coude, poignet, hanche, genou, cheville), ou de compression musculaire (mollet, biceps,..).
+</p><p>
+C'est un art martial jeune et en permanente évolution. Bien que peu médiatisé en Europe, il est réputé au Brésil, aux États-Unis et au Japon.</div>
+ </p>               <div class="clearfix"></div>
+            </div>
+        </div>
+
+    </div>
+    <!-- /.container -->
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <p>www.SchmitzTeamBelfort.fr <br/><a href="https://www.facebook.com/SchmitzFightingTeamBelfort" target="_blank">
+                        <img src="{% static 'img/f.jpeg' %}"/></a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="{% static 'js/jquery.js' %}"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="{% static 'js/bootstrap.min.js' %}"></script>
+
+</body>
+
+</html>
